@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: auto;
+    padding: 2%;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+.selectors { 
+    display: flex;
+    select {
+        width: 70%;
+        margin-bottom: 2%;
+        padding: 2%;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+    input {
+        width: 65%;
+        margin-bottom: 2%;
+        padding: 2%;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+}
+
+button {
+    padding: 3%;
+    border: 2px solid black;
+    background-color: greenyellow;
+    border-radius: 20px;
+}
